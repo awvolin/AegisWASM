@@ -1,0 +1,2 @@
+database=/home/alexvolin/Documents/qt3/sqlite/mydb.db
+stylesheet=/home/alexvolin/Documents/qt3/css/newSheet.css

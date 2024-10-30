@@ -1,0 +1,231 @@
+QCheckBox::indicator{
+    width: 60px;
+    height: 30px;
+}
+
+QCheckBox::indicator:checked{
+        image: url(":/Icons/switch-on.png");
+}
+
+QCheckBox::indicator:unchecked{
+        image: url(":/Icons/switch-off.png");
+}
+
+QLabel {
+        background-color: rgb(43, 56, 86);
+        border-color: rgb(98, 99, 94);
+        border: 0px solid;
+        color: rgb(238, 233, 23);
+        font: 700 9pt 'Segoe UI';
+}
+
+QLabel #aRowFour, #aRowOne, #aRowThree, #aRowTwo, #b2, #b3, #b3a, #essm, #sm2, #nsm, #stingRay, #inv, #port, #stbd, #port_2, #stbd_2 {
+        background-color: rgb(43, 56, 86);
+        border-color: rgb(98, 99, 94);
+        border: 0px solid;
+        color: rgb(238, 233, 23);
+        font: 700 9pt 'Segoe UI';
+}
+
+QWidget #centralwidget {
+        background-color: rgb(43, 56, 86);
+}
+
+QWidget #centralwidgetMain, #centralwidgetPDE {
+        background-color: rgb(43, 56, 86);
+        border: 10px solid;
+        border-color: rgb(200, 200, 200);
+}
+
+QPushButton {
+    color: rgb(238, 233, 23);
+    font: 700 9pt 'Segoe UI';
+    background-color: rgb(43, 56, 86);
+    padding: 5px;
+    border: 2px inset;
+    border-color: rgb(153, 160, 174);
+    border-bottom-color: rgb(19, 25, 39);
+    border-right-color: rgb(19, 25, 39);
+}
+
+QPushButton #positMapBtn, #markMapBtn, #positMapBtn{
+    image: url(":/Icons/earth.png");
+}
+
+QPushButton::pressed {
+    color: rgb(238, 233, 23);
+    font: 700 9pt 'Segoe UI';
+    background-color: rgb(43, 56, 86);
+    padding: 5px;
+    border: 2px inset;
+    border-color: rgb(19, 25, 39);
+    border-bottom-color: grey;
+    border-right-color: gray;
+}
+
+QPushButton::disabled {
+        color: rgb(223, 203, 142);
+        font: 700 9pt 'Segoe UI';
+        background-color: rgb(114, 114, 126);
+}
+
+QLineEdit {
+    font: 700 9pt 'Segoe UI';
+    background-color: rgb(41, 41, 39);
+    color: rgb(255,255,255);
+    border: 2px inset;
+    border-color: rgb(19, 25, 39);
+    border-bottom-color: gray;
+    border-right-color: gray;
+}
+
+
+QGroupBox #fwdGroupBox_2{
+        background-color: rgb(43, 56, 86);
+        border: 3px solid;
+        border-bottom-width: 3px solid;
+        border-color: rgb(200, 200, 200);
+}
+
+QGroupBox #fwdDataGroupBox, #b2GroupBox, #b3GroupBox, #b3aGroupBox, #essmGroupBox,
+#fwdInvEnblGroupBox, #fwdLabelGroupBox, #nsmDataGroupBox,
+#portNsmGroupBox, #portStbdGroupBox, #portStbdGroupBox_2, #stingRayGroupBox {
+        background-color: rgb(43, 56, 86);
+        border: 0px solid;
+        border-color: rgb(98, 99, 94);
+}
+
+QGroupBox #gunGroupBox {
+        background-color: rgb(43, 56, 86);
+        border: 3px solid;
+        border-top: 2px solid;
+        border-left: 2px solid;
+        border-color: rgb(200, 200, 200);
+}
+QGroupBox #nsmGroupBox {
+        background-color: rgb(43, 56, 86);
+        border: 3px solid;
+        border-top: 2px solid;
+        border-left: 3px solid;
+        border-color: rgb(200, 200, 200);
+}
+QGroupBox #groupBox_14, #gunScrollAreaGroupBox {
+        background-color: rgb(43, 56, 86);
+        border: 0px solid;
+        border-color: rgb(200, 200, 200);
+}
+
+QGroupBox #sltGroupBox {
+        background-color: rgb(43, 56, 86);
+        border: 3px solid;
+        border-top: 2px solid;
+        border-right: 3px solid;
+        border-bottom: 3px solid;
+        border-color: rgb(200, 200, 200);
+}
+#buttonBox, #navBox, #positSourceBox, #trueHeadingBox, #waterDepthBox, #windSourceBox, #gunGroupBox, #nsmGroupBox, #sltGroupBox {
+        background-color: rgb(43, 56, 86);
+        border-top: 2px solid;
+        border-right: 3px solid;
+        border-bottom: 3px solid;
+        border-color: rgb(200, 200, 200);
+}
+QRadioButton {
+        color: rgb(238, 233, 23);
+}
+QRadioButton::indicator {
+        width: 10px;
+        height: 10px;
+        border-radius: 7px;
+}
+QRadioButton::indicator::unchecked{
+        border: 3px solid;
+        border-color: rgb(200, 200, 200);
+        border-radius:7px;
+        background-color: rgb(43, 56, 86);
+        width: 10px;
+        height: 10px;
+}
+QRadioButton::indicator::checked{
+        border: 3px solid;
+        border-color: rgb(200, 200, 200);
+        border-radius:7px;
+        background-color: rgb(255, 255, 255);
+        width: 10px;
+        height: 10px;
+}
+QSlider::groove:horizontal {
+        height: 8px;
+        background: rgb(41, 41, 39);
+        margin: 2px 0;
+}
+
+QSlider::handle:horizontal {
+        width: 12px;
+        height: 20px;
+        background-color: rgb(200, 200, 200);
+        margin: -6px 0;
+}
+
+QLabel344 {
+    background-color: rgb(43, 56, 86);
+    color: rgb(238, 233, 23);
+    background: rgb(41, 41, 39);
+
+
+        border-color: rgb(98, 99, 94);
+}
+
+QScrollArea QWidget{
+        background: rgb(41, 41, 39);
+}
+
+QScrollBar {
+        background-color: rgb(200,200,200);
+        border: 2px solid;
+        border-color: rgb(200,200,200);
+
+}
+QScrollBar::handle {
+        background: rgb(98, 99, 94);
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+        border-color: rgb(200,200,200);
+        margin: 10px;
+}
+QScrollBar::groove {
+        background: rgb(98, 99, 94);
+        border: 1px solid;
+        border-color: rgb(200,200,200);
+}
+QScrollBar::sub-line {
+        background: rgb(98, 99, 94);
+        border: 1px solid;
+        border-color: rgb(200,200,200);
+}
+QScrollBar::add-line {
+        background: rgb(98, 99, 94);
+        border: 1px solid;
+        border-color: rgb(200,200,200);
+}
+QScrollBar::up-arrow, QScrollBar::down-arrow {
+        border: 1px solid;
+        border-color: rgb(200,200,200);
+}
+
+#ammoTypeEdit, #roundsEdit {
+        font: 700 9pt "Segoe UI";
+        color: rgb(255,255,255);
+        border: 0px;
+        background-color: rgb(41, 41, 39);
+}
+#positNorth, #positSouth, #positEast, #positWest, #markNorth, #markSouth, #markEast, #markWest
+, #magEast, #magWest{
+        color: rgb(255, 255, 255);
+}
+
+QLabel #gun, #ammoType, #rounds, #nsmSemicolon, #semicolon, #slt {
+        background-color: rgb(43, 56, 86);
+        color: rgb(238, 233, 23);
+        font: 700 9pt "Segoe UI";
+}
